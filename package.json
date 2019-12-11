@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js",
-    "lint": "standard"
+    "lint": "standard",
+    "test": "jest --watchAll --verbose"
   },
   "repository": "git@github.com:4k1k0/apliprueba.git",
   "author": "Wako <dulo.rodrigo@gmail.com>",
@@ -13,5 +14,10 @@
     "jest": "^24.9.0",
     "nodemon": "^2.0.1",
     "standard": "^14.3.1"
+  },
+  "standard": {
+    "ignore": [
+      "tests"
+    ]
   }
 }
