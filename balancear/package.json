@@ -10,6 +10,7 @@
   "repository": "git@github.com:4k1k0/apliprueba.git",
   "author": "Wako <dulo.rodrigo@gmail.com>",
   "license": "MIT",
+  "private": true,
   "devDependencies": {
     "jest": "^24.9.0",
     "nodemon": "^2.0.1",
