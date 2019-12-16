@@ -1,14 +1,12 @@
 'use strict'
 
-const diferencia = require('./diferencia')
-
 const balanceDosPesos = (mapa, izquierda, derecha) => {
   let answer = []
 
   derecha.forEach((peso, index) => {
     const contadorPeso = mapa.get(derecha[index])
     mapa.set(derecha[index], contadorPeso - 1)
-    const dif = diferencia(izquierda) + derecha[index]
+    const dif = Math.abs(izquierda[1] - izquierda[0] + derecha[index])
 
     // Un peso de cada lado
     if (mapa.get(dif) > 0) {
