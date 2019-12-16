@@ -1,0 +1,18 @@
+{
+  "name": "balanceador",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "lint": "standard"
+  },
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "standard": "^14.3.1"
+  },
+  "dependencies": {
+    "balancear": "file:../balancear"
+  }
+}
